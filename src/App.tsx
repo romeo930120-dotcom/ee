@@ -55,7 +55,7 @@ const SOCIAL_LINKS = [
 
 const STAR_PROJECTS = [
   {
-    title: "2025 節目拍攝剪輯",
+    title: "節目拍攝剪輯",
     category: "STAR PROJECT 01",
     image: "https://i.postimg.cc/FzQpSVX7/jie-tu-2026-05-12-04-30-55.png",
     id: "p1",
@@ -71,7 +71,7 @@ const STAR_PROJECTS = [
     link: "https://www.behance.net/gallery/226147927/IG-8"
   },
   {
-    title: "2024 活動平面拍攝",
+    title: "活動紀錄平面拍攝",
     category: "STAR PROJECT 03",
     image: "https://i.postimg.cc/zv0hfCJ6/jie-tu-2026-05-12-05-14-27.png",
     id: "p3",

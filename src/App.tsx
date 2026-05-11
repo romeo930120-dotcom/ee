@@ -115,18 +115,7 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Desktop Floating Avatar */}
-      <div className="hidden md:block fixed top-24 right-8 z-40">
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="w-48 h-48 rounded-2xl border-2 border-accent/30 overflow-hidden shadow-2xl glass p-1"
-        >
-          <img src="https://i.postimg.cc/v86C609X/0E4A6813.jpg" alt="Evan Chen Profile" className="w-full h-full object-cover rounded-xl" referrerPolicy="no-referrer" />
-        </motion.div>
-      </div>
-
-      {/* Hero Section */}
+            {/* Hero Section */}
       <header className="relative pt-36 pb-20 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           <motion.div
@@ -160,7 +149,7 @@ export default function App() {
               </a>
             </div>
           </motion.div>
-
+          
           <motion.div 
             initial={{ opacity: 0, scale: 0.8, x: 30 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
@@ -181,6 +170,7 @@ export default function App() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-stone-500/10 blur-3xl -z-10 rounded-full"></div>
             </div>
           </motion.div>
+        
         </div>
       </header>
 

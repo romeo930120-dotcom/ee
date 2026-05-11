@@ -155,8 +155,8 @@ export default function App() {
               <a href="#work" id="main-cta" className="px-8 py-4 bg-accent text-white text-xs font-bold uppercase tracking-widest rounded flex items-center gap-2 shadow-lg shadow-accent/20 transition-transform hover:scale-105">
                 STAR 專案 <Star className="w-3 h-3 fill-current" />
               </a>
-              <a href="#contact" className="px-8 py-4 border border-white/10 text-white text-xs font-bold uppercase tracking-widest rounded hover:bg-white/5 transition-all">
-                聯繫我
+              <a href="https://www.instagram.com/cboxun_0211" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-white/10 text-white text-xs font-bold uppercase tracking-widest rounded hover:bg-white/5 transition-all flex items-center gap-2">
+                <Instagram className="w-3 h-3" /> Instagram 聯繫
               </a>
             </div>
           </motion.div>

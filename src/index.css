@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-accent: #a34e2c; /* Sienna/Terracotta */
+  --color-accent-hover: #8c4226;
+  --color-earth-stone: #1a1918;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-[#0a0a0a] text-stone-300 font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display text-white tracking-tight;
+  }
+}
+
+.glass {
+  @apply bg-black/40 backdrop-blur-md border border-white/10;
+}
+
+.earth-gradient {
+  background: radial-gradient(circle at top right, rgba(163, 78, 44, 0.15), transparent 40%),
+              radial-gradient(circle at bottom left, rgba(60, 50, 40, 0.1), transparent 40%);
+}
